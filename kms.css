@@ -1,7 +1,26 @@
 html{
-    background-image: url('./images/Screenshot\ \(31\).png');
+    background-image: url('./images/background1.png');
     background-size: cover;
     background-repeat: no-repeat;
+}
+@font-face {
+    font-family: Coco;
+    src: url(./assets/CocoGothic-Bold_trial.ttf);
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding-left: 2vw;
+    font-family: Coco;
+    font-weight: bolder;
+    position: relative;
+    top: -6vh;
+}
+
+#logoNav{
+    height: 5vw;
+    position: relative;
+    top: 1vh;
 }
 
 @media screen and (min-width: 1587px) {
@@ -9,5 +28,13 @@ html{
         background-size: 77vw 90vh;
         background-repeat: no-repeat;
         background-position: 50% 0%;
+    }
+    .nav{
+        position: relative;
+        left: 11vw;
+    }
+    #logoNav{
+        position: relative;
+        left: 15vw;
     }
 }
