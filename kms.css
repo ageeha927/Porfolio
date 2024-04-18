@@ -1,26 +1,82 @@
-html{
+#head{
     background-image: url('./images/background1.png');
     background-size: cover;
     background-repeat: no-repeat;
+    overflow-x: hidden;
 }
+body{
+    margin: 0;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
 @font-face {
     font-family: Coco;
     src: url(./assets/CocoGothic-Bold_trial.ttf);
+}
+
+@font-face {
+    font-family: League;
+    src: url(./assets/LeagueGothic-Regular-VariableFont_wdth.ttf);
 }
 .nav a{
     color: white;
     text-decoration: none;
     padding-left: 2vw;
+    padding-right: 1vw;
     font-family: Coco;
     font-weight: bolder;
+    letter-spacing: 5px;
     position: relative;
     top: -6vh;
 }
 
 #logoNav{
-    height: 5vw;
+    height: 6vw;
     position: relative;
     top: 1vh;
+    left: 7vw;
+}
+
+#arrow{
+    height: 6vw;
+    position: relative;
+    top: -12vh;
+    left: 89vw;
+}
+
+#name{
+    color: white;
+    font-family: Coco;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    position: relative;
+    top: -11vh;
+    left: 82vw;
+}
+
+#typewriter1{
+    color: white;
+    font-family: League;
+    font-weight: lighter;
+    letter-spacing: 7px;
+    font-size: 14vh;
+    position: relative;
+    top: 39vh;
+    left: 1vw;
+}
+
+#typewriter2{
+    text-decoration: underline;
+    color: white;
+    font-family: League;
+    font-weight: lighter;
+    letter-spacing: 7px;
+    font-size: 14vh;
+    position: relative;
+    top: 11vh;
+    left: 10vw;
 }
 
 @media screen and (min-width: 1587px) {
