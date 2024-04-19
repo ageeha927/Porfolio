@@ -1,6 +1,6 @@
 #head{
     background-image: url('./images/background1.png');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     overflow-x: hidden;
 }
@@ -78,6 +78,8 @@ body::-webkit-scrollbar {
     top: 11vh;
     left: 10vw;
 }
+
+
 
 @media screen and (min-width: 1587px) {
     html {
