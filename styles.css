@@ -1,14 +1,10 @@
-#head{
+body{
     background-image: url('./images/background1.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
-}
-body{
+    overflow-y: hidden;
     margin: 0;
-}
-body::-webkit-scrollbar {
-    display: none;
 }
 
 @font-face {
@@ -39,12 +35,6 @@ body::-webkit-scrollbar {
     left: 7vw;
 }
 
-#arrow{
-    height: 6vw;
-    position: relative;
-    top: -12vh;
-    left: 89vw;
-}
 
 #name{
     color: white;
@@ -52,7 +42,7 @@ body::-webkit-scrollbar {
     font-weight: bolder;
     letter-spacing: 5px;
     position: relative;
-    top: -11vh;
+    top: -10vh;
     left: 82vw;
 }
 
