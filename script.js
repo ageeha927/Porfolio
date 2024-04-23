@@ -19,4 +19,13 @@ typewriter
     .deleteAll()
     .typeString('WEBSITE DEVELOPER.')
     .pauseFor(500)
+    .deleteAll()
+    .typeString('FBLA PRESIDENT.')
+    .pauseFor(500)
+    .deleteAll()
+    .typeString('ARTIST.')
+    .pauseFor(500)
+    .deleteAll()
+    .typeString('PHOTOGRAPHER.')
+    .pauseFor(500)
     .start();
