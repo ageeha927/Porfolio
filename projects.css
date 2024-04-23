@@ -5,7 +5,15 @@
     font-family: 'Times New Roman', Times, serif;
     background-color: black;
 }
+#skills-nav{
+    position: relative;
+    top: 4vh;
+    left: -5vw;
+}
 
+#name{
+    top: -7vh;
+}
 
 body{
     display: flex;
@@ -20,29 +28,11 @@ body{
     background-color: black;
 }
 
-#none{
-    color: rgb(255, 255, 255);
-    font-size: 36px;
-    position: absolute;
-    top: 27px;
-    background-color: rgba(0, 0, 0, 0.457);
-    background-blend-mode: darken;
-    padding: 15px 35px 15px 35px;
-    border: 5px solid rgba(0, 0, 0, 0);
-    border-radius: 50px;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    right: 37vw;
-}
-
 .container{
     display: flex;
     width: 90vw;
     position: relative;
-    top: 5vh;
-
+    left: 4vw;
 }
 
 .card{
@@ -117,4 +107,8 @@ body{
         width: 0;
         border-color: none;
     }
+}
+a{
+    background-color: transparent;
+    color: rgb(173, 173, 173);
 }
